@@ -248,6 +248,10 @@ p {
       
     }
 
+    .navbar a {
+      font-size: large;
+    }
+
 }
 
 
