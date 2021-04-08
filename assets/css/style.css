@@ -224,11 +224,15 @@ p {
 
 @media only screen and (min-width:0px) and (max-width: 400px){
 
+  .navbar a {
+    font-size: large;
+  }
+
   #text1,#text2{
     font-size: 7vmax;
   }
   .btc{
-    font-size: 22vmax;
+    font-size: 15vmax;
     margin-top: 0px;
   }
 }
