@@ -28,7 +28,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #ffffff;
+  color: #000000;
 }
 
 * {
@@ -146,7 +146,7 @@ p {
 
   text-align: center;
 
-  user-select: non;
+  user-select: none;
 }
 
 
@@ -228,8 +228,9 @@ p {
     font-size: 7vmax;
   }
   .btc{
-    font-size: 15vmax;
-    margin-top:0px;
+    font-size: 22vmax;
+    margin-top: 0px;
+    height: 1.5vh;
   }
 }
 
@@ -237,10 +238,12 @@ p {
   .btc{
     font-size: 20vmax;
     margin-top:0px;
+    height: 2vh;
   }
 
     #text1,#text2{
       font-size: 10vmax;
+      
     }
 
 }
