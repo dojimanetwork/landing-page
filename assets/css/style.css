@@ -29,7 +29,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #121212; }
+  color: #ffffff; }
 
 * {
   margin: 0;
@@ -65,7 +65,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #121212;
+  color: #ffffff;
   margin: 0px; }
 
 h1 {
@@ -95,7 +95,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #121212;
+  color: #ffffff;
   margin: 0px; }
 
 .bg_cover {
@@ -104,6 +104,57 @@ p {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%; }
+
+.btc {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 30vmin;
+  margin-top: 100px;
+  background: linear-gradient(
+    125.96deg,
+    #fdc134 17.59%,
+    #c9e03b 48.87%,
+    #2dc1b1 83.6%
+  );
+}
+
+.shine {
+  width: 1000px;
+  height: 10vh;
+  margin-left: -100px;
+  transform: rotate(30deg);
+  background: -webkit-linear-gradient(top, transparent, rgba(200, 200, 200, 0.2), transparent);
+  position: absolute;
+  animation: shine 6s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0%, 100% {
+    margin-top: -10px;
+  }
+  50% {
+    margin-top: 700px;
+  }
+}
+
+
+
+
+.navbar-brand{
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+  
+
 
 /* svg {
     position: absolute;
@@ -127,7 +178,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 48px;
-  color: #0067f4;
+  color: #60f4ec;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -160,6 +211,14 @@ p {
   color: #6c6c6c;
   margin-top: 24px; }
 
+.social{
+  color: #0d6efd
+}
+
+/* ion-icon {
+  color: #0d6efd;
+} */
+
 /*===========================
     2.HEADER css 
 ===========================*/
@@ -180,7 +239,7 @@ p {
     z-index: 99; }
   .navgition.sticky {
     position: fixed;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -226,7 +285,7 @@ p {
         top: 116%;
         left: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: rgb(0, 0, 0);
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -238,7 +297,7 @@ p {
         top: 116%;
         left: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: rgb(0, 0, 0);
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -252,7 +311,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #121212;
+        color: #ffffff;
         text-transform: uppercase;
         position: relative;
         -webkit-transition: all 0.3s ease-out 0s;
@@ -331,6 +390,7 @@ p {
 
 .header-hero {
   height: 850px;
+  background-color: #000000;
   position: relative; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-hero {
@@ -345,9 +405,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 50%, rgba(254, 255, 244, 0.3) 68%, rgba(255, 255, 255, 0.12));
-    background: -o-linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 50%, rgba(254, 255, 244, 0.3) 68%, rgba(255, 255, 255, 0.12));
-    background: linear-gradient(rgba(232, 237, 255, 0.9), rgba(239, 254, 255, 0.9) 50%, rgba(254, 255, 244, 0.3) 68%, rgba(255, 255, 255, 0.12)); }
+}
   .header-hero .header-content {
     padding-top: 195px;
     position: relative;
@@ -361,7 +419,7 @@ p {
     .header-hero .header-content .header-title {
       font-size: 44px;
       line-height: 55px;
-      color: #121212;
+      color: #ffffff;
       font-weight: 600; }
       @media (max-width: 767px) {
         .header-hero .header-content .header-title {
@@ -377,14 +435,13 @@ p {
           font-size: 16px;
           line-height: 24px; } }
     .header-hero .header-content .header-btn {
-      margin-top: 22px; }
+      margin-top: 150px; }
       .header-hero .header-content .header-btn li {
         display: inline-block;
         margin: 10px 10px 0; }
         .header-hero .header-content .header-btn li a.main-btn {
           border-radius: 50px;
           overflow: hidden;
-          background-color: #fff;
           -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -393,7 +450,7 @@ p {
           .header-hero .header-content .header-btn li a.main-btn i {
             margin-left: 5px; }
           .header-hero .header-content .header-btn li a.main-btn.btn-one {
-            color: #fff; }
+            color: rgb(0, 0, 0); }
             .header-hero .header-content .header-btn li a.main-btn.btn-one::before {
               position: absolute;
               content: '';
@@ -457,6 +514,8 @@ p {
 .services-area {
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #000000;
+  color: #fff;
   position: relative; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .services-area {
@@ -472,6 +531,8 @@ p {
   color: #0067f4; }
 
 .services-content .services-content {
+  background-color: #000000;
+  color: #fff;
   padding-left: 15px; }
   @media (max-width: 767px) {
     .services-content .services-content {
@@ -485,15 +546,16 @@ p {
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
-    color: #121212; }
+    color: #ffffff; }
   .services-content .services-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #121212;
+    color: #ffffff;
     margin-top: 8px; }
 
 .services-image {
   position: absolute;
+  background-color: #000000;
   width: 40%;
   height: 100%;
   top: 0;
@@ -532,13 +594,16 @@ p {
     .services-image .image img {
       width: 100%; }
 
+  .section-title .title{
+    color: #fff;
+  }
 /*===========================
       4.PRICING css 
 ===========================*/
 .pricing-area {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #f4f6f7; }
+  background-color: #000000; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .pricing-area {
       padding-top: 100px;
@@ -556,12 +621,12 @@ p {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background-color: #fff; }
+  background-color: rgb(23, 23, 23); }
   .single-pricing .pricing-header .sub-title {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
-    color: #121212;
+    color: #ffffff;
     position: relative;
     padding-bottom: 8px; }
     .single-pricing .pricing-header .sub-title::before {
@@ -580,7 +645,8 @@ p {
     font-weight: 600;
     line-height: 80px;
     margin-top: 32px;
-    color: #121212; }
+   
+    color: #ffffff; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .single-pricing .pricing-header .price {
         font-size: 50px;
@@ -604,7 +670,7 @@ p {
     .single-pricing .pricing-list ul li {
       font-size: 16px;
       line-height: 24px;
-      color: #121212;
+      color: #ffffff;
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .single-pricing .pricing-list ul li {
@@ -861,7 +927,7 @@ p.form-message.error {
        7.FOOTER css 
 ===========================*/
 .footer-area {
-  background-color: #f4f6f7; }
+  background-color: #000000; }
 
 .footer-widget {
   padding-top: 90px;
@@ -882,7 +948,7 @@ p.form-message.error {
     margin-right: 10px; }
     .footer-logo-support .footer-logo .social li a {
       font-size: 24px;
-      color: #6c6c6c;
+      color: #ffffff;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -894,7 +960,7 @@ p.form-message.error {
 .footer-logo-support .footer-support span {
   font-size: 20px;
   line-height: 25px;
-  color: #6c6c6c;
+  color: #ffffff;
   font-weight: 600; }
   @media (max-width: 767px) {
     .footer-logo-support .footer-support span {
@@ -909,7 +975,7 @@ p.form-message.error {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
-  color: #6c6c6c; }
+  color: #ffffff; }
 
 .footer-link {
   margin-top: 32px; }
@@ -918,7 +984,7 @@ p.form-message.error {
     .footer-link ul li a {
       font-size: 16px;
       line-height: 24px;
-      color: #121212;
+      color: #ffffff;
       margin-top: 16px;
       font-weight: 500;
       -webkit-transition: all 0.3s ease-out 0s;
@@ -944,16 +1010,16 @@ p.form-message.error {
       font-weight: 500; }
       .footer-newsletter .newsletter input::placeholder {
         opacity: 1;
-        color: #6c6c6c; }
+        color: #ffffff; }
       .footer-newsletter .newsletter input::-moz-placeholder {
         opacity: 1;
-        color: #6c6c6c; }
+        color: #ffffff; }
       .footer-newsletter .newsletter input::-moz-placeholder {
         opacity: 1;
-        color: #6c6c6c; }
+        color: #ffffff; }
       .footer-newsletter .newsletter input::-webkit-input-placeholder {
         opacity: 1;
-        color: #6c6c6c; }
+        color: #ffffff; }
     .footer-newsletter .newsletter button {
       position: absolute;
       top: 0;
@@ -964,14 +1030,14 @@ p.form-message.error {
       border-bottom-right-radius: 50px;
       border: 0;
       font-size: 20px;
-      color: #121212;
+      color: #ffffff;
       cursor: pointer;
       background: none; }
   .footer-newsletter .text {
     margin-top: 16px; }
 
 .footer-copyright {
-  background-color: #2b354f; }
+  background-color: #000000; }
 
 .copyright {
   padding: 23px 0; }
