@@ -319,7 +319,7 @@ p {
 }
 
 .social {
-  color: #f468e8;
+  color: #7de995;
 }
 
 @media screen {
@@ -703,12 +703,18 @@ p {
   padding-left: 15px;
 }
 @media (max-width: 767px) {
+  .services-content{
+    text-align: center;
+  }
   .services-content .services-content {
     padding-left: 0;
     padding-top: 15px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .services-content{
+    text-align: center;
+  }
   .services-content .services-content {
     padding-left: 15px;
     padding-top: 0;
