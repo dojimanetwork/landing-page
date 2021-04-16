@@ -291,7 +291,7 @@ p {
 }
 
 #launch-btn{
-  color: white
+  color: rgb(0, 0, 0)
 }
 
 @media (max-width: 767px) {
@@ -655,9 +655,15 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: -webkit-linear-gradient(left, #fc1100, #df6ce9);
-  background-image: -o-linear-gradient(left, #fc1100, #df6ce9);
-  background-image: linear-gradient(to right, #fc1100, #df6ce9);
+  background: linear-gradient(
+    125.96deg,
+    #fdc134 17.59%,
+    #c9e03b 48.87%,
+    #2dc1b1 83.6%
+  );
+  background-image: -webkit-linear-gradient(left,  #fdc134,#c9e03b);
+  background-image: -o-linear-gradient(left, #fdc134, #c9e03b);
+  background-image: linear-gradient(to right, #fdc134, #c9e03b);
   background-position: right center;
   z-index: -1;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -680,9 +686,9 @@ p {
 }
 
 .header-hero .header-content .header-btn li a.main-btn.btn-one:hover::before {
-  background-image: -webkit-linear-gradient(right, #df6ce9, #fc1100);
-  background-image: -o-linear-gradient(right,  #df6ce9, #fc1100);
-  background-image: linear-gradient(to left,  #df6ce9, #fc1100);
+  background-image: -webkit-linear-gradient(right, #fdc134, #c9e03b);
+  background-image: -o-linear-gradient(right,  #fdc134, #c9e03b);
+  background-image: linear-gradient(to left,  #fdc134, #c9e03b);
   background-position: left center;
   -webkit-transition: all none ease-out 0s;
   -moz-transition: all none ease-out 0s;
