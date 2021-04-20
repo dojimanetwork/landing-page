@@ -626,7 +626,7 @@ p {
 .header-hero .header-content .header-btn li a.main-btn i {
   margin-left: 5px;
 }
-.header-hero .header-content .header-btn li a.main-btn.btn-one {
+.header-hero .header-content .header-btn li a.main-btn.btn-one,.btn-two {
   color: rgb(0, 0, 0);
 }
 .header-hero .header-content .header-btn li a.main-btn.btn-one::before {
@@ -639,6 +639,24 @@ p {
   background-image: -webkit-linear-gradient(left, #0067f4, #2bdbdc);
   background-image: -o-linear-gradient(left, #0067f4, #2bdbdc);
   background-image: linear-gradient(to right, #0067f4, #2bdbdc);
+  background-position: right center;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.header-hero .header-content .header-btn li a.main-btn.btn-two::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: -webkit-linear-gradient(left, #c9e03b, #2bdbdc);
+  background-image: -o-linear-gradient(left, #c9e03b, #2bdbdc);
+  background-image: linear-gradient(to right, #c9e03b, #2bdbdc);
   background-position: right center;
   z-index: -1;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -696,11 +714,19 @@ p {
   -o-transition: all none ease-out 0s;
   transition: all none ease-out 0s;
 }
-.header-hero .header-content .header-btn li a.main-btn.btn-two:hover {
-  -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+
+.header-hero .header-content .header-btn li a.main-btn.btn-two:hover::before {
+  background-image: -webkit-linear-gradient(right, #fdc134, #2bdbdc);
+  background-image: -o-linear-gradient(right,  #fdc134, #2bdbdc);
+  background-image: linear-gradient(to left,  #fdc134, #2bdbdc);
+  background-position: left center;
+  -webkit-transition: all none ease-out 0s;
+  -moz-transition: all none ease-out 0s;
+  -ms-transition: all none ease-out 0s;
+  -o-transition: all none ease-out 0s;
+  transition: all none ease-out 0s;
 }
+
 .header-hero .header-shape {
   position: absolute;
   bottom: 0;
