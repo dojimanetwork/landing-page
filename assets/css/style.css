@@ -24,11 +24,21 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 
+@font-face {
+  font-family: "Dojima";
+  src: url("/assets/fonts/Inter.var.woff2") format("woff2"),
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #000000;
+  font-size: 16px;
+}
+
+.bg-dark {
+  background-color: black;
 }
 
 * {
@@ -38,6 +48,51 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.brand {
+  font-size: 150px;
+}
+
+.main{
+  /* height: 500px; */
+  background-color: black;
+}
+
+.brand-name {
+  font-size: 5rem;
+  margin-top: 2rem;
+  
+}
+
+.brand-description {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.alien-ship{
+  position: absolute;
+}
+
+#warm-hole {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.dfi-subitem-image{
+  width: 5rem;
+}
+
+.dfi-subitem-desc{
+  color: #a4a4a4;
+}
+
+.dfi-desc {
+  font-size: 1.5rem;
+  color: #a4a4a4;
+  letter-spacing: 0.1rem;
+}
+
 
 img {
   max-width: 100%;
@@ -75,15 +130,15 @@ h6 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 4.5rem;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 3px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 2rem;
 }
 
 h4 {
@@ -560,14 +615,7 @@ p {
     height: 650px;
   }
 }
-.header-hero::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 .header-hero .header-content {
   padding-top: 195px;
   position: relative;
