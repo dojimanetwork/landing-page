@@ -340,19 +340,19 @@ I want you guys to help decentralize the money and financial instruments in Doji
 
     <!--====== Scrolling Nav js ======-->
     <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/scrolling-nav.js"></script>
+    <!-- <script src="assets/js/scrolling-nav.js"></script> -->
 
     <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
     <!--====== Main js ======-->
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js" integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
         integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
         <script src="assets/js/bigcircle.js"></script>
     <!-- <script src="assets/js/alienship.js"></script> -->
 
@@ -361,47 +361,6 @@ I want you guys to help decentralize the money and financial instruments in Doji
     <!-- Google Analytics -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTBJZEVQ6T"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-FTBJZEVQ6T');
-    </script>
-<!-- vertexShader -->
-<script id="js-vertex-shader" type="x-shader/x-vertex">
-    attribute vec3 position;
-    
-    void main()	{
-      gl_Position = vec4(position, 1.0);
-    }
-    </script>
-    
-    <!-- fragmentShader -->
-    <script id="js-fragment-shader" type="x-shader/x-fragment">
-    precision highp float;
-    uniform vec2 resolution;
-    uniform float time;
-    uniform float xScale;
-    uniform float yScale;
-    uniform float distortion;
-    
-    void main() {
-      vec2 p = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);
-      
-      float d = length(p) * distortion;
-      
-      float rx = p.x * (1.0 + d);
-      float gx = p.x;
-      float bx = p.x * (1.0 - d);
-    
-      float r = 0.05 / abs(p.y + sin((rx + time) * xScale) * yScale);
-      float g = 0.05 / abs(p.y + sin((gx + time) * xScale) * yScale);
-      float b = 0.05 / abs(p.y + sin((bx + time) * xScale) * yScale);
-      
-      gl_FragColor = vec4(r, g, b, 1.0);
-    }
-    </script>
-    <script src="assets/js/rainbow.js"></script>
 
 </body>
 
