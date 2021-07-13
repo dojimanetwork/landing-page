@@ -160,6 +160,15 @@
 	 box-sizing: border-box;
 	 z-index: 3;
 }
+
+nav .menu .brand-logo {
+	transition: all 0.4s ease;
+}
+
+nav .menu .brand-logo:hover {
+	color: red;
+}
+
  nav .menu .website_name {
 	 color: rgb(255, 255, 255);
 	 font-weight: 600;

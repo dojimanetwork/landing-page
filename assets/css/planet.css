@@ -11,7 +11,9 @@
     border: 10px solid #fff;
     border: 10px solid #000;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .3), inset 0 0 0 15px rgba(0, 0, 0, .05), inset 0 0 0 30px rgba(0, 0, 0, .05), inset 0 0 0 45px rgba(0, 0, 0, .05), inset 0 0 0 60px rgba(0, 0, 0, .05), inset 0 0 0 75px rgba(0, 0, 0, .05), inset 0 0 0 90px rgba(0, 0, 0, .05);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, .3), inset 0 0 0 15px rgba(0, 0, 0, .05), inset 0 0 0 30px rgba(0, 0, 0, .05), inset 0 0 0 45px rgba(0, 0, 0, .05), inset 0 0 0 60px rgba(0, 0, 0, .05), inset 0 0 0 75px rgba(0, 0, 0, .05), inset 0 0 0 90px rgba(0, 0, 0, .05); */
+    /* box-shadow: rgba(251, 229, 36, 0.4) 5px 5px, rgba(247, 240, 49, 0.3) 10px 10px, rgba(251, 248, 79, 0.2) 15px 15px, rgba(222, 234, 58, 0.1) 20px 20px, rgba(234, 234, 51, 0.05) 25px 25px; */
+    box-shadow: rgba(191, 213, 213, 0.4) -5px 5px, rgba(182, 215, 216, 0.3) -10px 10px, rgba(166, 200, 200, 0.2) -15px 15px, rgba(139, 199, 200, 0.1) -20px 20px, rgba(157, 207, 216, 0.05) -25px 25px;
 }
 .planet {
     position: absolute;
