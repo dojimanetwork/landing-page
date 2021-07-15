@@ -3,7 +3,7 @@
     position: relative;
     width: 40rem;
     height: 40rem;
-    margin: 100px auto;
+    margin: 6.25rem auto;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: daylight 15s ease infinite;
