@@ -256,7 +256,9 @@
     .planet-container {
         width: 20rem;
         height: 20rem;
-        /* margin: 6.25rem auto; */
+        margin: 0;
+        margin-left: 1.5rem;
+        margin-top: 6.5rem;
     }
 
     .planet {
@@ -280,6 +282,75 @@
        }
         to {
             transform: rotate(360deg) translateX(50px) rotate(-360deg);
+       }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .planet-container {
+        width: 25rem;
+        height: 25rem;
+        margin: 0;
+        margin-top: 6.5rem;
+        padding-left: 1rem;
+    }
+
+    .planet {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .ring-before, .ring-after, .ring-bigger-before, .ring-bigger-after {
+        top: 11rem;
+        left: 4rem;
+        transform:rotate(-45deg) scale(0.8);
+    }
+    .ring-bigger-before, .ring-bigger-after {
+        transform: rotate(-145deg) skew(-54deg) scale(0.8);
+        border-color: #d3bc68;
+    }
+
+    @keyframes orbit-6 {
+        from {
+            transform: rotate(0deg) translateX(100px) rotate(0deg);
+       }
+        to {
+            transform: rotate(360deg) translateX(100px) rotate(-360deg);
+       }
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .planet-container {
+        width: 30rem;
+        height: 30rem;
+        margin: 0;
+        margin-top: 6.5rem;
+        padding-left: 1rem;
+    }
+
+    .planet {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .ring-before, .ring-after, .ring-bigger-before, .ring-bigger-after {
+        top: 14rem;
+        left: 7rem;
+        transform:rotate(-45deg) scale(1.2);
+    }
+    .ring-bigger-before, .ring-bigger-after {
+        transform: rotate(-145deg) skew(-54deg) scale(1.2);
+        border-color: #d3bc68;
+    }
+
+    @keyframes orbit-6 {
+        from {
+            transform: rotate(0deg) translateX(100px) rotate(0deg);
+       }
+        to {
+            transform: rotate(360deg) translateX(100px) rotate(-360deg);
        }
     }
 }

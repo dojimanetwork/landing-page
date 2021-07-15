@@ -1,5 +1,5 @@
 .wrapper {
-    height: 80rem;
+    height: 100vh;
     font-weight: 300;
     overflow: hidden;
     color: white;
@@ -71,14 +71,7 @@
     background: linear-gradient(#3a3a3a, #090909);
     animation: rotation 7s linear infinite;
 }
-.main__text-wrapper:after {
-    bottom: -35em;
-    width: 30em;
-    height: 30em;
-    border-radius: 20em;
-    background: linear-gradient(#8c8c8c, #f2f2f2);
-    animation: rotation 7s linear infinite;
-}
+
 .arrow {
     z-index: 1000;
     opacity: 0.5;
@@ -205,9 +198,6 @@
 }
 
 @media screen and (max-width: 767px ) {
-    .wrapper {
-        height: 40rem;
-    }
     .main-title {
         font-size: 5rem;
         margin-bottom: 2rem;
@@ -261,5 +251,12 @@
         height: 200px;
     }
 
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) { 
+    .wrapper {
+        height: 60rem;
+    }
 
 }
