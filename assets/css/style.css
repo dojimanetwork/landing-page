@@ -79,6 +79,15 @@ body {
   top: 100px;
 }
 
+.dfi {
+  font-size: 4rem;
+  padding-left: 3rem;
+}
+
+.origin {
+  font-size: 4rem;
+}
+
 .dfi-subitem-image{
   width: 5rem;
 }
@@ -90,7 +99,12 @@ body {
 .dfi-desc {
   font-size: 1.5rem;
   color: #a4a4a4;
-  letter-spacing: 0.1rem;
+}
+
+.alien-story {
+  font-family: 'Poor Story', cursive; 
+  font-size: 2rem; 
+  line-height: 2rem;
 }
 
 
@@ -150,9 +164,9 @@ h6 {
   margin: 0px;
 }
 
-h1 {
+/* h1 {
   font-size: 4.5rem;
-}
+} */
 
 h2 {
   font-size: 3rem;
@@ -353,25 +367,25 @@ p {
   color: #fff;
 }
 
-.back-to-top {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: #0067f4;
-  bottom: 10px;
-  right: 20px;
-  z-index: 999;
-  color: #fff;
-  font-size: 20px;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  display: none;
-}
-.back-to-top:hover {
-  background-color: #005ad5;
-  color: #fff;
+
+@media (max-width: 767px) {
+  .dfi {
+    font-size: 2rem;
+  }
+
+  .dfi-desc {
+    font-size: 1rem;
+    color: #a4a4a4;
+    padding-left: 1rem;
+  }
+
+  .origin {
+    font-size: 2rem;
+    padding-inline: 1rem;
+  }
+
+  .alien-story {
+    font-size: 0.7rem; 
+    line-height: 0.5rem;
+  }
 }

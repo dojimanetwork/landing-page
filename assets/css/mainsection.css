@@ -72,7 +72,6 @@
     animation: rotation 7s linear infinite;
 }
 .main__text-wrapper:after {
-
     bottom: -35em;
     width: 30em;
     height: 30em;
@@ -206,7 +205,9 @@
 }
 
 @media screen and (max-width: 767px ) {
-
+    .wrapper {
+        height: 40rem;
+    }
     .main-title {
         font-size: 5rem;
         margin-bottom: 2rem;
@@ -232,6 +233,7 @@
         height: 5em;
     }
     .main__text-wrapper:after {
+        bottom: -10em;
         width: 9em;
         height: 9em;
     }
