@@ -54,6 +54,12 @@ body {
   font-size: 150px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 /* .main{
   height: 50rem;
   background-color: black;

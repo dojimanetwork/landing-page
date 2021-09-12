@@ -1,0 +1,129 @@
+.conn-eco {
+    color: #ffffff72;
+}
+
+.eco-title {
+    font-size: 5rem;
+    padding: 0;
+}
+
+.cross-img {
+    height: 100%;
+    width: 100%;
+}
+
+.features {
+    background-color: #171717;
+    padding: 2rem;
+    border-radius: 1%;
+}
+
+.feature-title {
+    color: #295aed;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.features>div:nth-child(n+2) {
+    margin-top: 2rem;
+}
+
+.feature {
+    color: rgb(191, 191, 191);
+    font-size: 1.5rem;
+}
+
+.feature-icon {
+    color: rgb(162, 80, 80);
+}
+
+.read-more {
+    cursor: pointer;
+    color: rgb(201, 196, 196);
+    position: absolute;
+    border-radius: 50px;
+    top: 100px;
+    overflow: hidden;
+    padding-inline: 3rem;
+    line-height: 50px;
+    background-image: -webkit-linear-gradient(left, #002f59, #1200d5);
+    background-image: -o-linear-gradient(left, #002f59, #1200d5);
+    background-image: linear-gradient(to right, #176ab3, #2b6b9b);
+    background-position: right center;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.buttom-shape {
+    width: 100%;
+    position: relative;
+}
+
+
+@media (max-width: 767px) {
+    .eco-title {
+        font-size: 2.5rem;
+        padding: 0;
+    }
+
+
+    .feature-title {
+        font-size: 1.1rem;
+    }
+
+    .feature {
+        font-size: 0.9rem;
+    }
+
+    .read-more {
+        top: 20px;
+        font-size: 0.9rem;
+        padding-inline: 0.5rem;
+    }
+
+    .feat-image {
+        left: -50px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .eco-title {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .feature-title {
+        font-size: 1.5rem;
+    }
+
+    .feature {
+        font-size: 1rem;
+    }
+
+    .read-more {
+        top: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .eco-title {
+        font-size: 4rem;
+        padding: 0;
+    }
+
+    .feature-title {
+        font-size: 1.8rem;
+    }
+
+    .feature {
+        font-size: 1.3rem;
+    }
+
+    .read-more {
+        top: 90px;
+    }
+}
