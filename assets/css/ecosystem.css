@@ -3,7 +3,7 @@
 }
 
 .eco-title {
-    font-size: 5rem;
+    font-size: 4.5rem;
     padding: 0;
 }
 
@@ -115,7 +115,7 @@
 
 @media (min-width: 993px) and (max-width: 1200px) {
     .eco-title {
-        font-size: 4rem;
+        font-size: 3.5rem;
         padding: 0;
     }
 
