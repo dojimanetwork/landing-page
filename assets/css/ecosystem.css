@@ -19,7 +19,7 @@
 }
 
 .feature-title {
-    color: #295aed;
+    color: linear-gradient(to right, #176ab3, #2b6b9b);
     font-size: 2.5rem;
     position: relative;
 }
@@ -40,9 +40,9 @@
 .read-more {
     cursor: pointer;
     color: rgb(201, 196, 196);
-    position: absolute;
+    /* position: absolute; */
     border-radius: 50px;
-    top: 100px;
+    /* top: 100px; */
     overflow: hidden;
     padding-inline: 3rem;
     line-height: 50px;
@@ -55,6 +55,10 @@
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+}
+
+.read-more:hover {
+    color: white;
 }
 
 .buttom-shape {
